@@ -1,91 +1,287 @@
-# The Seed — Menu Pricing & Plan
+# The Seed — Website Migration & Integrations Proposal
 
-**Stack:** Astro (frontend) + Netlify (hosting/CDN) + **Sanity** (CMS for blog & pages, no Git required).
 
-**Aesthetic:** earthy elegance; soulful, stylish, smooth interactions.
 
-**Goal:** launch The Seed site first, then layer on funnel/ads. (We can hold off on ongoing SEO spend in 2025 and revisit later.)
+## 1. Pricing Summary
 
----
+### One-time
 
-## Menu Pricing (modular, per site)
+| Item                                  | Price (USD) | Notes                                  |
+| ------------------------------------- | ----------- | -------------------------------------- |
+| **Website migration (Squarespace → WordPress)** | **$400**     | Matches Guatemalan agency “Option 1”   |
+| **Additional feature build (AI, CRM, etc.)**    | —           | Estimated **60–80 hours** of extra work; see breakdown below |
 
-| Module                                                                  | What’s included                                                                                                                                                                                                                         | Fixed Price                                         |
-| ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| **Web build (per site)** — design + dev + SEO setup                     | Custom Astro site on Netlify, bilingual (EN/ES), polished UI, blog via **Sanity**, Hospitable booking embed/sync, Stripe deposit flow, WhatsApp button per SOP, on-page SEO basics, GA4 + GSC, performance & accessibility pass, launch | **\$4,900**                                         |
-| **SEO monthly (maintenance)** *(optional; recommend deferring in 2025)* | Technical checks, metadata tweaks, internal linking, GBP posts, light content guidance, rankings snapshot, monthly notes                                                                                                                | **Pause for 2025** (or **\$600/mo** if you want it) |
-| **Email/CRM setup**                                                     | Mailchimp or ActiveCampaign setup, lists/segments (Retreat Leads / Guests / Studio / BVC), opt-in forms, double opt-in, welcome email automation, basic tags                                                                            | **\$1,000**                                         |
-| **Funnel build (The Seed Retreats)**                                    | Lead magnet LP (Retreat Starter Kit), Thank-You page, Case-Study/Authority page, “Book a Call” page (Calendly), 5-email nurture inside your ESP, Meta Pixel + GA4 conversion events                                                     | **\$1,200**                                         |
-| **Paid ads setup (Meta)**                                               | Account audit/setup, Pixel & conversions, audiences, **3 creatives** (carousel/static/video mix), launch & first round of optimizations                                                                                                 | **\$800** (excludes media spend)                    |
-| **Paid ads management (monthly)**                                       | Weekly checks, creative/targeting refresh as needed, simple monthly report with CPL/CTR/conv                                                                                                                                            | **\$400/mo**                                        |
-| **GBP / Local SEO (one-time)**                                          | Google Business Profile overhaul: categories, services, photos, UTM links, Q&A seed, review flow notes, NAP consistency guidance                                                                                                        | **\$400**                                           |
-| **Ongoing support / care plan**                                         | Site updates, small enhancements, CMS/content help, light troubleshooting. SLA: 2–3 biz-day turnaround; same-day for urgent booking/payment issues                                                                                      | **\$350/mo** (cancel anytime)                       |
 
-### Web build options (pick one to start)
+### Monthly (recurring)
 
-|                  | **MVP – Launch Focus**                                                                                 | **Polished – Full Launch**                                                 |
-| ---------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
-| **Price**        | **\$4,900**                                                                                            | **\$8,500**                                                                |
-| **Languages**    | English at launch (Spanish later add-on)                                                               | English **+ Spanish** at launch                                            |
-| **Pages**        | Core set: Home, Retreats for Leaders, Property, Rates & Packages, Availability/Booking, Contact, Legal | Full set incl. Experiences, Blog, About/Story, FAQ, Legal (+ any from MVP) |
-| **Booking**      | Standard **Hospitable embed/sync**                                                                     | Hospitable embed/sync + booking UX polish                                  |
-| **Payments**     | Single **Stripe deposit** flow                                                                         | **Staged Stripe** deposits (deposit + balance)                             |
-| **Blog**         | Sanity CMS set up + 1 post template                                                                    | Sanity CMS with categories, author bios, search, RSS                       |
-| **SEO**          | Starter setup (titles/meta, sitemap, GA4/GSC)                                                          | Foundations + schema (Organization, Local/Lodging, Article)                |
-| **Design**       | Clean custom theme, minimal motion                                                                     | Elevated aesthetic polish + subtle micro‑interactions                      |
-| **Revisions**    | 1 pass on homepage + 1 interior template                                                               | 2 passes on key templates                                                  |
-| **Content load** | Up to **8 pages** populated                                                                            | Up to **12 pages + 3 posts** populated                                     |
-
-> Add‑ons available anytime: Spanish rollout (\$900–\$1,200 page‑count dependent), advanced schema (+\$350), extra motion polish (+\$300–\$600), custom payment logic (+\$300–\$600).
+| Item                          | Price (USD)            | Notes |
+| ----------------------------- | ---------------------- | ----- |
+| **SEO + SEM management**     | **$250 / month**       | Matches their package conceptually at a slightly lower monthly fee; same idea: manage Google Ads + basic SEO. |
+| **Google Ads budget (media)**| **$300+ / month**      | Paid directly to Google, as with the Guatemalan proposal. |
+| **Hosting + SSL**            | **$200 / year** | Same as what the Guatemalan agency |
 
 ---
 
-## Timeline per module & earliest start
+## 2. What’s in the Migration Package (Matched to Guatemala)
 
-- **Earliest start:** **Monday, Oct 20, 2025**
-- **Web build (The Seed):** 2–3 weeks from content handoff & design approval
-- **Email/CRM setup:** 3–5 biz days after site launch (or in parallel)
-- **Funnel build:** 1–2 weeks (can begin once ESP is live)
-- **Paid ads setup:** 3–5 biz days after funnel QA
-- **GBP optimization:** 2–3 biz days, can happen during web QA
-- **Ongoing support/ads/SEO:** rolling, month-to-month
+This section shows the **work bundled into the $391** “Squarespace → WordPress” migration, mirroring what the Guatemalan agency offered as their **Option 1**.
+
+### Scope: Website Migration & Hosting Setup
+
+**Included:**
+
+- WordPress installation on a managed server (≈2GB storage).
+- Migration of current Squarespace design/structure into WordPress.
+- Bilingual site (Spanish / English), mirroring existing content.
+- Responsive layout (desktop / tablet / mobile).
+- Basic on-page SEO:
+  - Page titles, meta descriptions, clean URLs/slugs.
+  - XML sitemap and basic robots.txt.
+- Image optimization (resizing/compression during migration).
+- One or more contact forms (e.g. general inquiry form), with email notifications.
+- Hosting-related setup:
+  - Domain + DNS pointing to the new server.
+  - SSL certificate installation.
+  - Database + PHPMyAdmin.
+  - Basic email accounts (IMAP/POP3/SMTP), if required.
+  - Server-level security: antivirus and scheduled backups.
+
+### Estimated Effort: Migration Package
+
+| Area                                    | Tasks                                                                 | Est. Hours |
+| --------------------------------------- | --------------------------------------------------------------------- | ---------- |
+| **Discovery & content inventory**       | Review current Squarespace site, list pages, blog, menus, forms.     | 2–4        |
+| **WP setup & theme/page builder**       | Install WordPress, choose/configure theme or page builder.           | 2–4        |
+| **Page layouts & content migration**    | Recreate existing pages with similar design/structure.               | 8–14       |
+| **Blog migration**                      | Export/import posts, categories/tags cleanup, basic formatting.      | 2–5        |
+| **Menus, header, footer, forms**        | Navigation, header/footer layout, contact form(s).                    | 3–6        |
+| **SEO & URL structure**                 | Titles/meta, slugs, basic redirects where needed.                    | 4–6        |
+| **Hosting, SSL, launch**                | Provision hosting, DNS, SSL, go-live checks.                         | 2.5–5      |
+| **QA & responsive testing**             | Cross-device checks, fixing layout glitches, link tests.             | 4–6        |
+
+**Total (migration only):**  
+**≈ 25–30 hours** of work bundled into the **$391** migration package.
+
+> In other words, I’m treating the **basic migration** as a flat, discounted project that exactly matches what the Guatemalan agency proposed.
 
 ---
 
-## Case studies / references
+## 3. Additional Features You Requested (Beyond the Guatemala Scope)
 
-- Boutique hospitality & retreat builds + lead-gen funnels of similar scope.
-- 6pt.co
+Here’s where the large gap is.
+
+Everything below is **work the Guatemalan quote does *not* cover**, but that you’ve asked for:
+
+- AI chatbot connected to WhatsApp and the CRM.
+- Stripe or other online payments on the site.
+- Booking engine integration (Hospitable / WeTravel).
+- Proper CRM setup and email automations.
+- A dedicated landing page + funnel.
+- Deeper analytics and KPI tracking.
+- Google Business / Maps presence optimization.
+- LinkedIn advisory / optimization.
+
+### 3.1 High-Level Comparison
+
+| Scope                              | Included in Guatemalan quote? | Included in $391 migration? | Est. Additional Hours (beyond migration) |
+| ---------------------------------- | ----------------------------- | --------------------------- | ---------------------------------------- |
+| Basic Squarespace → WP migration   | ✅ Yes (Option 1)              | ✅ Yes                       | — (already counted)                      |
+| AI chatbot + WhatsApp integration  | ❌ No                         | ❌ No                       | 14–20                                    |
+| Booking engine integration         | ❌ No                         | ❌ No                       | 6–10                                     |
+| Online payments (Stripe, etc.)     | ❌ No                         | ❌ No                       | 6–10                                     |
+| CRM setup + email automations      | ❌ No (only a note about Mailchimp migration) | ❌ No | 13–20                                    |
+| Landing page + funnel              | ❌ No (landing pages specifically excluded in their SEM scope) | ❌ No | 14–20                                    |
+| Advanced analytics & KPI tracking  | 🔸 Only basic GA/GTM for ads  | 🔸 Basic only              | 10–15 (for funnel & CRM events, dashboards) |
+| Google Maps / Google Business      | ❌ No                         | ❌ No                       | 4–7                                      |
+| LinkedIn optimization              | ❌ No                         | ❌ No                       | 3–5                                      |
+
+**Extra work for your wishlist:**  
+Roughly **60–80 hours** of additional implementation on top of the 25–30 hours for the basic migration.
+
+So in total:
+
+- **Migration only:** ≈ 25–30 hours → **$391** (matched to Guatemala).
+- **Extras you’re asking for:** ≈ 60–80 hours → **2–3× more work** than the migration itself.
 
 ---
 
-## Assumptions & out-of-scope (so we stay smooth)
+## 4. Detailed Extra Features & Effort
 
-**Assumptions**
+### 4.1 AI Chatbot + WhatsApp + CRM Feed
 
-- Final brand assets, copy, and proof read of EN/ES translations.
-- Existing **Hospitable** and payment processor accounts available (I think I have these still).
-- One custom design direction with two rounds of refinements on key templates.
-- Bank accounts + corporate structure for payments. 
+**What you asked for**
 
+> “Creación de un AI Chat bot básico unido al Whatsapp en el que nosotros podemos incorporar información de nuestros retiros para responder preguntás estándar básicas y alimentar a su vez el CRM.”
 
+**What’s involved**
 
-**Out-of-scope (can be added if needed)**
+- Selecting an AI/chatbot platform that supports WhatsApp and CRM integration.
+- Structuring FAQs: retreat info, dates, prices, logistics, travel questions.
+- Building flows/intents for common questions.
+- Connecting to WhatsApp Business.
+- Connecting to CRM (send new leads with tags/segments).
+- Testing in both languages (EN/ES).
 
-- Heavy copywriting, photo/video shoots, advanced multilingual SEO program, custom PMS flows beyond Hospitable embed/API, complex booking fee/tax logic, custom plugin development, PR/link-building.
-- Third-party costs (CMS paid tiers, fonts, stock, ad spend) are client-side.
-
----
-
-## Why start with the web build (and pause SEO monthly in 2025)
-
-Your brand wins on **experience + aesthetics**. The fastest return right now is a **gorgeous, performant site** + a **tight funnel**  to prove demand and refine messaging. Monthly SEO is valuable, but it compounds over quarters; I suggest we **defer that spend** until the site + funnel data shows where organic will pay off most. We can always spin up SEO in 2026 with clearer content priorities.
+**Estimated effort:** **≈ 14–20 hours**
 
 ---
 
-## Next steps
+### 4.2 Booking Engine Integration (Hospitable / WeTravel)
 
-1. 👍 Approve **Web build (The Seed) — \$4,900**
-2. Pick optional add-ons to run in parallel or after launch (I suggest **Funnel** first, then **Paid Ads Setup**)
-3. Share brand assets, copy, translations, Hospitable/Stripe access
+**What you asked for**
+
+> “Integración con booking engine -hospitable o wetravel-”
+
+**What’s involved**
+
+- Reviewing which booking engine is the source of truth (Hospitable or WeTravel) and how it should appear on the site.
+- Embedding booking widgets or iframes in relevant pages (e.g. retreats, accommodation).
+- Styling to match the site aesthetic.
+- Testing booking flow end-to-end (desktop/mobile).
+- Making sure GA/GTM can track “started booking” and “booking completed” events if possible.
+
+**Estimated effort:** **≈ 6–10 hours**
+
+---
+
+### 4.3 Online Payments (Stripe or Similar)
+
+**What you asked for**
+
+> “Integración de Stripe u otro Online Payment system”
+
+**What’s involved**
+
+- Setting up Stripe (or other gateway) products/checkout for retreats (e.g. deposits, balances, full payment).
+- Embedding checkout flow into the WordPress site.
+- Confirming handling of currencies, taxes, and fees as needed.
+- Confirmation pages & emails wired into CRM where possible.
+- Testing multiple payment scenarios.
+
+**Estimated effort:** **≈ 6–10 hours**
+
+---
+
+### 4.4 CRM Setup & Automations (Mailchimp / Other)
+
+**What you asked for**
+
+> “CRM, automatización de emails, base de datos de clientes -Mailchimp, CRM; Zapier-”
+
+**What’s involved**
+
+- Setting up a CRM / ESP account (Mailchimp or similar).
+- Defining lists/audiences and segments (leads vs guests; retreats; interests).
+- Creating custom fields (e.g. retreat type, dates, source, language).
+- Wiring up forms (site, landing pages, chatbot, and possibly booking engine) to feed the CRM.
+- Building core email automations:
+  - Welcome series.
+  - Pre-retreat info.
+  - Post-retreat follow-up.
+- Setting up Zapier (or similar) for any non-native integrations.
+
+**Estimated effort:** **≈ 13–20 hours**
+
+---
+
+### 4.5 Landing Page + Funnel
+
+**What you asked for**
+
+> “Creación de un Landing page y Funnel a nuestra página -como hemos hablado en la reunión-”
+
+**What’s involved**
+
+- Designing and building an opt-in landing page (similar spirit to the Guatemala Retreats example).
+- Thank-you page and possibly a follow-up “info” page (e.g. retreat details, case studies, FAQs).
+- Opt-in forms linked to CRM with the correct tags/segments.
+- 1–3 email nurture sequence aligned with the retreat offer.
+- Wiring events into GA4/GTM (landing views, opt-ins, key clicks).
+
+**Estimated effort:** **≈ 14–20 hours**
+
+---
+
+### 4.6 Analytics & KPI Tracking
+
+**What you asked for**
+
+> “GA + Tag Manager (for SEM only)” and “Análisis KPI mensual.”
+
+**What’s involved (beyond basic SEM tracking)**
+
+- GA4 property & GTM container organized for long-term use.
+- Events for:
+  - Landing page opt-ins.
+  - Retreat inquiry form submissions.
+  - Booking engine starts/finishes (where technically feasible).
+  - WhatsApp clicks.
+- Linking GA4 with Google Ads and funnel pages.
+- Creating a simple dashboard or report view focusing on:
+  - Leads per channel (organic, ads, referrals).
+  - Cost per lead and cost per booking (from ads).
+  - Funnel drop-off points.
+
+**Estimated effort:** **≈ 10–15 hours**
+
+*(Some baseline GA/GTM work is part of the SEM package; the extra hours here are for funnel + CRM + multi-step KPI tracking.)*
+
+---
+
+### 4.7 Google Maps / Business Profile & LinkedIn
+
+**What you asked for**
+
+> “Optimización de nuestra presencia en plataformas google maps, google business, etc”  
+> “Asesoría optimización Linked’in”
+
+**What’s involved**
+
+- **Google Business / Maps**
+  - Audit of existing profile(s).
+  - Fixing categories, descriptions, services, URLs with tracking.
+  - Uploading key photos.
+  - Q&A seeding and basic review strategy.
+
+- **LinkedIn**
+  - Review of profile and company page.
+  - Suggestions for positioning, headline, About section.
+  - Content themes and call-to-actions aligned with retreats.
+
+**Estimated effort:** **≈ 7–12 hours**  
+(≈ 4–7 for Google Business, 3–5 for LinkedIn).
+
+---
+
+## 5. Summary: Why the Extras Are “A Lot More”
+
+Putting it all together:
+
+| Block                                      | Est. Hours |
+| ------------------------------------------ | ---------- |
+| **Basic migration (Squarespace → WP)**     | **≈ 25–30** |
+| **All additional requested features**      | **≈ 60–80** |
+| **Total with everything implemented**      | **≈ 85–110** |
+
+The **Guatemalan quote** (Option 1) at **$391** only covers the **25–30 hours** of basic migration work.
+
+Your wishlist adds **roughly 60–80 hours** of new work on top — about **2–3× more** than the original website migration.
+
+---
+
+## 6. How We Can Structure This
+
+- I’ll **match the Guatemalan migration price**:  
+  - **$391** one-time for the Squarespace → WordPress migration as described above.
+- I’ll **match the intent of their monthly SEM/SEO package**, simplified as:  
+  - **$250 / month** for SEO + SEM management (plus your ad budget, e.g. $300/month paid directly to Google).
+- For the **additional 60–80 hours of feature work** (AI, CRM, funnels, automations, bookings, etc.):
+  - We can either:
+    - Fund part of it upfront, **or**
+    - Cover some/all of it via **commission on bookings**, since these extra systems are what will drive more direct bookings and retreat sales.
+
+This way:
+
+- You’re getting the **same baseline** the Guatemalan agency offered, at the **same price**.
+- You also see clearly that your expanded wishlist is **substantially more work**, which justifies treating it as a separate block of value (whether paid upfront, via commissions, or a mix of both).
 
